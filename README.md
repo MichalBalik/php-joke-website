@@ -13,4 +13,5 @@ A web application designed for storing jokes in a database. The website allows u
 - PHP  
 - jQuery  
 - Bootstrap  
-- Ajax  
+- Ajax
+- CSS
