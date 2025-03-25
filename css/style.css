@@ -1,0 +1,145 @@
+/*body {
+    background-color: #a9ff0b;
+    font-family: "Times New Roman", Times, serif;
+    color: yellow;
+}*/
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid green;
+}
+
+.header{
+    height:20vh;
+}
+
+.col-md-6{
+    background-color:darkgrey;
+
+}
+main {
+    height: 80vh;
+}
+
+.navbar-style
+{
+    box-shadow:0 5px 10px #efefef; /*aby bolo pod navigacnim barov shadow*/
+    text-transform: uppercase; /*len aby bolo navigacne menu v upercase*/
+    background-color: #555;
+}
+.logo {
+    height:48px; /*aby bolo logo dobre zoradene align */
+    padding: 2px 10px;
+
+}
+.icon-bar{
+    /*musim zmenit farbu menu aby som ho videl na stranke*/
+    background: darkorange;
+}
+
+.big-text{
+    /*len na zvacsenie textu  zmenit*/
+    font-size:52px;
+    margin:20px 0;
+    color:darkorange;
+}
+
+li a {
+    color:black;
+
+}
+
+a.btn{
+    margin:30px 10px;
+    padding:10px;
+    width:150px;
+    border-radius: 20px;
+
+}
+a.btn-first{
+    background-color: darkorange;
+    color:orange;
+}
+a.btn-second{
+    background:transparent;
+    border: 1px solid darkorange;
+    color:black
+}
+a.btn:hover{
+    background:darkorange;
+    border:none;
+    color: white;
+    box-shadow:5px 5px 10px #999;
+    transition:0.3s;
+
+}
+
+.menu {
+    float:left;
+    width:20%;
+    text-align:center;}
+
+.skuska{
+    border: dashed;
+    background-color: red;
+
+
+}
+.card-body{
+
+    background-color: darkgray;
+}
+.card-header{
+    background-color: dimgrey;
+
+}
+/*p.card-text{*/
+/*    background-color: red;*/
+
+/*}*/
+div.card{
+    /*margin: 5;*/
+    margin-top: 10px;
+    /*//margin-left: 0.5px;*/
+
+    padding: 0;
+}
+a.btn.btn-primary{
+    /*padding: 0;*/
+    padding: 0;
+    margin: 0;
+
+}
+
+.jumbotron{
+    margin-top: 1%;
+    padding-top: 10px;
+    background-color: cyan;
+}
+a:hover  {
+    background-color: grey;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+th{
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
